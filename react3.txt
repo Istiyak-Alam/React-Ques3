@@ -1,0 +1,41 @@
+Q.1 :- What is use of Gitignore File in React Application?
+
+Answer :- The gitignore file is used in a React application to specify which files and directories should not be tracked by Git.
+          It reduces the size of your Git repository, as large binary files (like those found in the node_modules directory) are not included.
+          It keeps your repository clean, as it does not include generated files that can easily be recreated during development.
+          It improves collaboration, as developers can focus on the relevant parts of the codebase and avoid conflicts with generated files.
+
+
+Q.2 :- How we can create the React Application? Explain the all Steps for them.
+
+Answer :- To create a React application, follow these steps:
+          1.Install Node.js and NPM before creating a React application, make sure you have installed Node.js and NPM on your computer. If you haven't installed them
+
+          2.Install Create React App After installing Node.js and NPM, open your terminal and run the following command to install the "create-react-app" package globally on your computer:
+
+          npm install -g create-react-app
+          3.Create a New React Application Once the "create-react-app" package is installed, you can create a new React application by running the following command:
+          create-react-app my-app
+
+          Replace "my-app" with the name you want to give your application.
+
+          Run the React Application Navigate to the root directory of your application using the terminal and run the following command to start the development server:
+          cd my-app
+          npm start
+
+Q.3 :- What do you know about NPM?
+
+Answer :- NPM (Node Package Manager) is a package manager for JavaScript and Node.js. It allows developers to share and manage code.
+
+Q.4 :- What are the advantages of using React?
+
+Answer :-  React offers several advantages that make it a popular choice for web application development. Its use of a virtual DOM, component-based architecture, 
+           and unidirectional data flow contribute to efficient rendering and easier maintenance of code.
+
+Q.5 :- What are the limitations of React?
+
+Answer :- React is a powerful and flexible library for building user interfaces. However, its limitations should be considered when deciding whether React is the 
+          right choice for a particular project. These limitations can often be overcome with proper planning, strategy, and implementation.
+
+
+
